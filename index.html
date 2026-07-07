@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Baihaqy Store</title>
+
+<style>
+*{
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+margin:0;
+background:#f5f5f5;
+padding-bottom:70px;
+}
+
+header{
+background:#111;
+color:white;
+padding:15px;
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo{
+width:45px;
+height:45px;
+background:#ff3b3b;
+border-radius:12px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+}
+
+.search{
+margin:15px;
+background:white;
+padding:12px;
+border-radius:20px;
+color:#888;
+}
+
+.banner{
+margin:15px;
+height:150px;
+background:linear-gradient(45deg,#111,#ff3333);
+border-radius:20px;
+color:white;
+padding:25px;
+font-size:25px;
+font-weight:bold;
+}
+
+h2{
+margin-left:15px;
+}
+
+.category{
+display:flex;
+gap:10px;
+padding:0 15px;
+overflow:auto;
+}
+
+.category button{
+border:0;
+padding:10px 20px;
+border-radius:20px;
+background:white;
+}
+
+.category .active{
+background:#111;
+color:white;
+}
+
+.products{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+padding:15px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+}
+
+.card img{
+width:100%;
+height:130px;
+object-fit:cover;
+}
+
+.info{
+padding:10px;
+}
+
+.price{
+font-size:18px;
+font-weight:bold;
+}
+
+.old{
+color:#999;
+text-decoration:line-through;
+font-size:13px;
+}
+
+.bottom{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+height:65px;
+background:white;
+display:flex;
+justify-content:space-around;
+align-items:center;
+box-shadow:0 -2px 10px #ddd;
+}
+
+.bottom div{
+text-align:center;
+font-size:12px;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<header>
+
+<div class="logo">
+BS
+</div>
+
+<div>
+<h3>Baihaqy Store</h3>
+<small>Video Digital Premium</small>
+</div>
+
+</header>
+
+
+<div class="search">
+🔍 Cari video...
+</div>
+
+
+<div class="banner">
+🔥 Promo Video Terbaru
+</div>
+
+
+<h2>Kategori</h2>
+
+<div class="category">
+
+<button class="active">
+Semua
+</button>
+
+<button>
+Viral
+</button>
+
+<button>
+Premium
+</button>
+
+<button>
+Terbaru
+</button>
+
+</div>
+
+
+
+<h2>Produk Video</h2>
+
+
+<div class="products">
+
+<a href="detail.html" style="text-decoration:none;color:inherit;">
+
+<div class="card">
+
+<img src="https://picsum.photos/300/200">
+
+<div class="info">
+
+<b>Video Premium 01</b>
+
+<p class="old">
+Rp10.000
+</p>
+
+<p class="price">
+Rp5.000
+</p>
+
+</div>
+
+</div>
+</a>
+
+
+<a href="detail.html" style="text-decoration:none;color:inherit;">
+
+<div class="card">
+
+<img src="https://picsum.photos/301/200">
+
+<div class="info">
+
+<b>Video Viral 02</b>
+
+<p class="old">
+Rp15.000
+</p>
+
+<p class="price">
+Rp8.000
+</p>
+
+</div>
+
+</div>
+</a>
+
+<a href="detail.html" style="text-decoration:none;color:inherit;">
+
+<div class="card">
+
+<img src="https://picsum.photos/302/200">
+
+<div class="info">
+
+<b>Video Eksklusif</b>
+
+<p class="price">
+Rp12.000
+</p>
+
+</div>
+
+</div>
+</a>
+
+
+<div class="card">
+
+<img src="https://picsum.photos/303/200">
+
+<div class="info">
+
+<b>Paket Hemat</b>
+
+<p class="price">
+Rp20.000
+</p>
+
+</div>
+
+</div>
+</a>
+
+</div>
+
+
+
+<div class="bottom">
+
+<div>
+🏠<br>
+<a href="index.html">Beranda</a>
+</div>
+
+<div>
+📂<br>
+<a href="cart.html">kategori</a>
+
+</div>
+
+<div>
+🛒<br>
+<a href="cart.html">Keranjang</a>
+</div>
+
+<div>
+👤<br>
+<a href="cart.html">profil</a>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
